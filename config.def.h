@@ -90,7 +90,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_o,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_j,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_k,      setmfact,       {.f = +0.05} },
-	//{ MODKEY,                       XK_Return, zoom,           {0} },
+	{ MODKEY,                       XK_a, zoom,           {0} },
 	{ MODKEY|Mod1Mask,              XK_u,      incrgaps,       {.i = +1 } },
 	{ MODKEY|Mod1Mask|ShiftMask,    XK_u,      incrgaps,       {.i = -1 } },
 	/*{ MODKEY|Mod4Mask,              XK_i,      incrigaps,      {.i = +1 } },
