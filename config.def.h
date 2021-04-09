@@ -12,8 +12,9 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar        = 5;        /* horizontal padding for statusbar */
 static const int vertpadbar         = 5;        /* vertical padding for statusbar */
-static const char *fonts[]          = { "Fantasque Sans Mono:size=15" };
-static const char dmenufont[]       = "Fantasque Sans Mono:size=15";
+static const char *fonts[]          = { "SF Pro Display:size=13",
+				      	"Font Awesome 5 Free:size=13" };
+static const char dmenufont[]       = "SF Pro Display:size=13";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
